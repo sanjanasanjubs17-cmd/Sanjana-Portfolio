@@ -406,3 +406,19 @@ body.dark-mode #form-status {
         grid-template-columns: 1fr;
     }
 }
+
+.resume-button {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 22px;
+    margin-top: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.resume-button:hover {
+    background-color: #1d4ed8;
+}
